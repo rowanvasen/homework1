@@ -1,0 +1,133 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background-color: rgb(224, 191, 149);
+  height: 100%;
+}
+
+header {
+  padding: 20px 0;
+  background-color: rgb(91, 70, 41);
+  margin-bottom: 50px;
+}
+
+.navbar-item {
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  padding: 0 30px;
+  text-decoration: none;
+  transition: color 0.5s ease-in-out;
+}
+
+.navbar-item:hover, .foot-item:hover {
+  color: rgb(59, 37, 27);
+  cursor: pointer;
+  text-decoration: overline;
+}
+
+.footer {
+  background-color: rgb(91, 70, 41);
+  color: white;
+  text-align: center;
+}
+
+.foot-item {
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  padding: 0 30px;
+  text-decoration: none;
+  transition: color 0.5s ease-in-out;
+}
+
+#Welcome-Box {
+  background-color: rgb(73, 71, 68);
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  background-color: rgb(73, 71, 68);
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.form-control {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  border-color: rgb(73, 71, 68);
+}
+
+.form-group label {
+  color: rgb(255, 255, 255);
+  margin-bottom: 5px;
+  
+}
+
+
+
+
+.btn {
+  background-color: rgb(91, 70, 41);
+  color: white;
+  border-radius: 10px;
+  border-color: rgb(91, 70, 41);
+  padding: 18px 20px;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.btn:hover {
+  background-color: rgb(217, 185, 143);
+  cursor: pointer;
+  color: black;
+  border-color: rgb(217, 185, 143);
+}
+
+.card {
+  background-color: rgb(73, 71, 68);
+  font-weight: bold;
+  color:black;
+  padding: 10px;
+  
+}
+
+.card-title {
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#team-title {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-decoration: underline;
+  padding: 10px;
+}
+
+
+
+
+
+

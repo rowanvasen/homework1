@@ -1,0 +1,22 @@
+<div class="row mt-4">
+    <div class="col-12">
+        <h3 id="team-title">Generated Teams:</h3>
+        <div class="d-flex flex-wrap">
+            @foreach (var team in Model.GeneratedTeams)
+            {
+                <div class="card mb-4 mr-4" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Team</h5>
+                        <ul>
+                            @foreach (var student in team)
+                            {
+                                <li>@student</li>
+                            }
+                        </ul>
+                    </div>
+                </div>
+            }
+        </div>
+        <button class="btn btn-primary" id="Names-Button">Generate Names</button>
+    </div>
+</div>
